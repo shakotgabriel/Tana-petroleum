@@ -1,5 +1,6 @@
 import React from 'react';
 import yourImage1 from '../assets/image2.jpg';
+import yourImage2 from '../assets/oil-field.jpg';
 
 const Services = () => {
   return (
@@ -8,8 +9,8 @@ const Services = () => {
         <div className="md:ml-4 relative">
           <img
             src={yourImage1}
-            alt="Image 2"
-            className="w-full h-auto transform hover:scale-90 transition-transform duration-500 hover:opacity-40 cursor-pointer"
+            alt="Image 1"
+            className="w-full h-auto transform hover:scale-90 transition-transform duration-500 hover:opacity-70 cursor-pointer "
           />
         </div>
       </div>
@@ -27,6 +28,11 @@ const Services = () => {
           <p className="font-normal pt-2 transition-opacity hover:opacity-50">
             At Tana Petroleum, our mission is to provide cutting-edge solutions to meet the diverse energy needs of our clients while prioritizing environmental responsibility, technological innovation, and customer satisfaction. We aim to be at the forefront of the energy sector, promoting cleaner and more efficient energy solutions for a brighter future.
           </p>
+          <img
+            src={yourImage2}
+            alt="Image 2"
+            className=" translate-y-6 pt-9 w-full h-[500px] transform hover:scale-90 transition-transform duration-500 hover:opacity-70 cursor-pointer bg-no-repeat bg-cover bg-center "
+          />
         </div>
       </div>
     </div>

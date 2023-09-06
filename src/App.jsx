@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 
-
-
-
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Services from './Components/Services';
@@ -15,10 +12,9 @@ import Contacts from './Components/Contacts';
 
 
 
-
 const App = () => {
   return (
-    <div className=''>
+    <div className='App'>
       
       < Navbar/> 
       < Hero/> 
