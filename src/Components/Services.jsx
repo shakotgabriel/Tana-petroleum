@@ -4,18 +4,18 @@ import yourImage2 from '../assets/oil-field.jpg';
 
 const Services = () => {
   return (
-    <div className="bg-white py-3 md:py-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <div className="bg-white py-3 md:py-6 grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className="p-4 relative group">
         <div className="md:ml-4 relative">
           <img
             src={yourImage1}
             alt="Image 1"
-            className="w-full h-auto transform hover:scale-90 transition-transform duration-500 hover:opacity-70 cursor-pointer "
+            className="w-full h-auto max-w-full transform hover:scale-90 transition-transform duration-500 hover:opacity-70 cursor-pointer"
           />
         </div>
       </div>
       <div className="bg-green-50 p-4">
-        <div className="absolute">
+        <div className="relative">
           <h1 className="font-bold text-xl md:text-2xl transition-transform transform hover:scale-105">
             Company Overview
           </h1>
@@ -31,7 +31,7 @@ const Services = () => {
           <img
             src={yourImage2}
             alt="Image 2"
-            className=" translate-y-6 pt-9 w-full h-[500px] transform hover:scale-90 transition-transform duration-500 hover:opacity-70 cursor-pointer bg-no-repeat bg-cover bg-center "
+            className="pt-7 w-full h-auto max-w-full transform hover:scale-90 transition-transform duration-500 hover:opacity-70 cursor-pointer"
           />
         </div>
       </div>
